@@ -221,3 +221,43 @@ input, textarea, select {
     background: #465362;
   }
 }
+
+
+@media screen and (max-width: 600px) {
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.6rem;
+    }
+
+    
+    nav a {
+        font-size: 1.05rem;
+        padding: 0.5rem 0.75rem;
+    }
+
+    
+    header {
+        padding: 1rem 0;
+    }
+
+    
+    h1 {
+        font-size: 1.6rem;
+        margin-top: 1.2rem;
+    }
+
+    
+    .card, form {
+        margin: 1rem;
+        padding: 1rem;
+        max-width: none;
+    }
+
+    
+    footer {
+        position: static;
+        padding: 1rem 0.5rem;
+    }
+}
